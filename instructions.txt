@@ -1,1 +1,23 @@
-Instructions on how to ssh from home
+1. Turn on your home machine.
+
+2. Connect to the VPN.
+
+3. Open Cygwin.
+
+4. Type the following to connect to your machine at work.
+
+   ssh trey@lib-dig013.lsu.edu 
+
+5. Navigate to the islandora_vagrant folder.
+
+   cd islandora_vagrant
+
+6. Get the virtual machine running.
+
+   vagrant up
+
+7. Connect to the virtual machine.
+
+   vagrant ssh
+
+
